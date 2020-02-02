@@ -11,3 +11,4 @@ def AddpictureToWordFile(picture,file,text_below,text_above):
     r.add_text(text_below)
 
     document.save(file)
+    
