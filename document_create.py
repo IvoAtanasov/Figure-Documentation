@@ -14,7 +14,7 @@ def AddpictureToWordFile(targetfile):
             # print(entry.name)
             #r.add_text(text_above)
             document.add_picture(folderPath+ "\\" + entry.name)
-            document.add_paragraph(entry.name)
+            document.add_paragraph(entry.name.replace("Step","Figure"))
 
     document.save(targetfile)
     
