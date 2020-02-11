@@ -10,4 +10,3 @@ def FindNumber(text):
                 break
     return int(result)
 
-print(FindNumber("Step42.teststep1"))
