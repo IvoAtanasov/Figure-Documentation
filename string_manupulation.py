@@ -8,5 +8,7 @@ def FindNumber(text):
         else:
             if(isdigitStart):
                 break
+    if not(isdigitStart):
+        return 0
     return int(result)
 
