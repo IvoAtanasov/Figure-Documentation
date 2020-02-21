@@ -1,7 +1,4 @@
 import document_create
+import folder_managnment
 
-file="C:\\testv2.docx"
-#document_create.AddpictureToWordFile("C:\\Users\\Administrator\\Desktop\\FixLicense.PNG",file,"Text above","Text below")
-#document_create.AddpictureToWordFile("C:\\Users\\Administrator\\Desktop\\FixLicense.PNG",file,"Another text","other t")
-
-document_create.AddpictureToWordFile(file)
+document_create.AddpictureToWordFile(folder_managnment.file)
